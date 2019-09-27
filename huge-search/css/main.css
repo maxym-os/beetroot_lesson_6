@@ -60,21 +60,38 @@ aside {
     width: 30%;
 }
 
+aside.left {
+    text-align: left;
+
+}
+
+aside.center {
+    text-align: center;
+    margin-left: 4%;
+}
+
+aside.right {
+    text-align: right;
+    margin-left: 4%;
+}
+
 h2 {
     font-family: sans-serif;
     color: #c2c2c2;
+    text-align: left;
 }
 
 ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: inline-block;
 }
 
 li {
-    display: inline-block;
+    width: 100%;
     background: rgba(118,117,128,0.05);
+    text-align: left;
+    border-radius: 10px;
 }
 
 li:hover {
@@ -86,3 +103,13 @@ a {
     color: rgba(145,145,145,0.7);
     text-decoration: none;
 }
+
+a img {
+    border-radius: 50%;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+
