@@ -79,6 +79,8 @@ h2 {
     font-family: sans-serif;
     color: #c2c2c2;
     text-align: left;
+    font-size: 16px;
+    font-weight: 900;
 }
 
 ul {
@@ -92,6 +94,7 @@ li {
     background: rgba(118,117,128,0.05);
     text-align: left;
     border-radius: 10px;
+    margin-bottom: 5px;
 }
 
 li:hover {
@@ -102,14 +105,20 @@ a {
     font-family: sans-serif;
     color: rgba(145,145,145,0.7);
     text-decoration: none;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
 }
 
-a img {
+.left a img {
     border-radius: 50%;
 }
 
 h3 {
-    font-size: 1em;
+    font-size: 13px;
+    padding-left: 15px;
+    padding-top: 5px;
 }
 
 
